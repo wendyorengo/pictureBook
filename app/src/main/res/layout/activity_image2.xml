@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Image2Activity">
+
+    <ImageView
+        android:id="@+id/imgShave"
+        android:layout_width="398dp"
+        android:layout_height="364dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_percent="50%"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shaved" />
+
+    <TextView
+        android:id="@+id/etShave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Being proud of one's style and fashion speaks alot about out character. I love the short and no hair."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgShave" />
+
+    <Button
+        android:id="@+id/btnShaveOne"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="310dp"
+        android:layout_marginRight="310dp"
+        android:text="Previous"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etShave" />
+
+    <Button
+        android:id="@+id/btnShaveTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="231dp"
+        android:layout_marginLeft="231dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnShaveOne"
+        app:layout_constraintTop_toBottomOf="@+id/etShave" />
+</androidx.constraintlayout.widget.ConstraintLayout>

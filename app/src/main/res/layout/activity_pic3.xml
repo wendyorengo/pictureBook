@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Pic3Activity">
+
+    <ImageView
+        android:id="@+id/imgLips"
+        android:layout_width="0dp"
+        android:layout_height="639dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_percent="50%"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lips" />
+
+    <Button
+        android:id="@+id/btnLips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginRight="211dp"
+        android:text="Prev"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLips" />
+
+    <Button
+        android:id="@+id/btnLips2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnLips"
+        app:layout_constraintTop_toBottomOf="@+id/imgLips" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
